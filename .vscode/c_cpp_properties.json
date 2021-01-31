@@ -10,6 +10,8 @@
             "includePath": [
                 "/home/pina/Code/Lueftermessstation/include",
                 "/home/pina/Code/Lueftermessstation/src",
+                "/home/pina/Code/Lueftermessstation/.pio/libdeps/nodemcu-32s/SdFat/src",
+                "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
@@ -68,6 +70,7 @@
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s",
+                "/home/pina/Code/Lueftermessstation/.pio/libdeps/nodemcu-32s/SD",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -85,7 +88,6 @@
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                 "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -102,6 +104,8 @@
                 "path": [
                     "/home/pina/Code/Lueftermessstation/include",
                     "/home/pina/Code/Lueftermessstation/src",
+                    "/home/pina/Code/Lueftermessstation/.pio/libdeps/nodemcu-32s/SdFat/src",
+                    "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_update",
@@ -160,6 +164,7 @@
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/variants/nodemcu-32s",
+                    "/home/pina/Code/Lueftermessstation/.pio/libdeps/nodemcu-32s/SD",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -177,7 +182,6 @@
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SD_MMC/src",
-                    "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SPIFFS/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/SimpleBLE/src",
                     "/home/pina/.platformio/packages/framework-arduinoespressif32/libraries/Ticker/src",
@@ -191,7 +195,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=50004",
+                "PLATFORMIO=50100",
                 "ARDUINO_NodeMCU_32S",
                 "ESP32",
                 "ESP_PLATFORM",
